@@ -13,24 +13,6 @@
 * `src/controller.py` — Двухуровневый `ResponseController` для генерации управляющих команд (Active Response / Honeypot / SIEM Log).
 * `tests/load_testing.py` — Скрипт нагрузочного тестирования операционных показателей системы (EPS и Latency).
 
-## 🛠️ Установка и запуск
-
-1. Клонируйте репозиторий и перейдите в его корень:
-```bash
-git clone https://github.com
-cd ids-hybrid-system
-```
-
-2. Установите зависимости:
-```bash
-pip install -r requirements.txt
-```
-
-3. Запустите нагрузочное тестирование для проверки целевых метрик (производительность должна быть не менее 500 EPS согласно ТЗ):
-```bash
-python tests/load_testing.py
-```
-
 ## 📊 Целевые метрики эффективности
 * Точность обнаружения аномалий (Precision): **>= 90%**
 * Уровень ложных срабатываний (False Positive): **<= 5%**
